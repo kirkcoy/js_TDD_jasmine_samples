@@ -1,3 +1,4 @@
+// Create a function that returns a reversed array. For exmaple reverseArray([1,3,5]) should return [5,3,1]. reverseArray([1,8,4,2]) should return [2,4,8,1].
 function reverseArray(arr){
     for(var i = 0; i < Math.floor(arr.length/2); i++){
         var temp = arr[i];
